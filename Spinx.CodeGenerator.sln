@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spinx.CodeGenerator.Api", "Spinx.CodeGenerator.Api\Spinx.CodeGenerator.Api.csproj", "{19DD6F78-51BB-4E82-950F-D13B9FBAA700}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sphinx.CodeGenerator.Application", "Sphinx.CodeGenerator.Application\Sphinx.CodeGenerator.Application.csproj", "{FD3D008E-DA44-4C2F-A1BE-25E0D26E5F97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7EA47CA1-9816-4229-92A5-A8C4EF7E1987}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeGenerator", "CodeGenerator", "{C36F092F-708A-4E25-BC70-F1BE2F7B35B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sphinx.CodeGenerator.Core", "Sphinx.CodeGenerator.Core\Sphinx.CodeGenerator.Core.csproj", "{AE0F8E01-588B-425F-B350-3E92CD3D943A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sphinx.CodeGenerator.Application.Tests", "Sphinx.CodeGenerator.Application.Tests\Sphinx.CodeGenerator.Application.Tests.csproj", "{B37414AF-B003-49BD-8156-1F25FD246D30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sphinx.CodeGenerator.Infrastructure", "Sphinx.CodeGenerator.Infrastructure\Sphinx.CodeGenerator.Infrastructure.csproj", "{B5184464-DE6A-49C7-840F-564C2FE035ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sphinx.CodeGenerator.CSharp", "Sphinx.CodeGenerator.CSharp\Sphinx.CodeGenerator.CSharp.csproj", "{388AD0B6-1B0A-4798-82CB-AD29B8EB95BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19DD6F78-51BB-4E82-950F-D13B9FBAA700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19DD6F78-51BB-4E82-950F-D13B9FBAA700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19DD6F78-51BB-4E82-950F-D13B9FBAA700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19DD6F78-51BB-4E82-950F-D13B9FBAA700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD3D008E-DA44-4C2F-A1BE-25E0D26E5F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3D008E-DA44-4C2F-A1BE-25E0D26E5F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3D008E-DA44-4C2F-A1BE-25E0D26E5F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3D008E-DA44-4C2F-A1BE-25E0D26E5F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE0F8E01-588B-425F-B350-3E92CD3D943A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE0F8E01-588B-425F-B350-3E92CD3D943A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE0F8E01-588B-425F-B350-3E92CD3D943A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE0F8E01-588B-425F-B350-3E92CD3D943A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B37414AF-B003-49BD-8156-1F25FD246D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B37414AF-B003-49BD-8156-1F25FD246D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B37414AF-B003-49BD-8156-1F25FD246D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B37414AF-B003-49BD-8156-1F25FD246D30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5184464-DE6A-49C7-840F-564C2FE035ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5184464-DE6A-49C7-840F-564C2FE035ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5184464-DE6A-49C7-840F-564C2FE035ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5184464-DE6A-49C7-840F-564C2FE035ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{388AD0B6-1B0A-4798-82CB-AD29B8EB95BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388AD0B6-1B0A-4798-82CB-AD29B8EB95BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388AD0B6-1B0A-4798-82CB-AD29B8EB95BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388AD0B6-1B0A-4798-82CB-AD29B8EB95BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{19DD6F78-51BB-4E82-950F-D13B9FBAA700} = {C36F092F-708A-4E25-BC70-F1BE2F7B35B1}
+		{FD3D008E-DA44-4C2F-A1BE-25E0D26E5F97} = {C36F092F-708A-4E25-BC70-F1BE2F7B35B1}
+		{AE0F8E01-588B-425F-B350-3E92CD3D943A} = {C36F092F-708A-4E25-BC70-F1BE2F7B35B1}
+		{B37414AF-B003-49BD-8156-1F25FD246D30} = {7EA47CA1-9816-4229-92A5-A8C4EF7E1987}
+		{B5184464-DE6A-49C7-840F-564C2FE035ED} = {C36F092F-708A-4E25-BC70-F1BE2F7B35B1}
+		{388AD0B6-1B0A-4798-82CB-AD29B8EB95BC} = {C36F092F-708A-4E25-BC70-F1BE2F7B35B1}
+	EndGlobalSection
+EndGlobal

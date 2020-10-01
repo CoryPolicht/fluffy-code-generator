@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Sphinx.CodeGenerator.Application\Sphinx.CodeGenerator.Application.csproj" />
+      <ProjectReference Include="..\Sphinx.CodeGenerator.CSharp\Sphinx.CodeGenerator.CSharp.csproj" />
+      <ProjectReference Include="..\Sphinx.CodeGenerator.Infrastructure\Sphinx.CodeGenerator.Infrastructure.csproj" />
+    </ItemGroup>
+
+
+</Project>
